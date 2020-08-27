@@ -51,7 +51,7 @@ ORDER BY memberid;";
 $result = $db->query( $query );
 
 $outputToSwiftmailer = FALSE; // FALSE IS TO SCREEN
-$sendFromAddress     = 'info@eyourdomain.info';
+$sendFromAddress     = 'info@yourdomain.info';
 $sendFromName        = 'The Administrator';
 $votingPage          = 'vote.php?token=';
 $voteurl             = $_SERVER["HTTP_HOST"] .  dirname($_SERVER["SCRIPT_NAME"]) . '/' . $votingPage;
