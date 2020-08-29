@@ -9,4 +9,4 @@ Change the settings in the connect.php file.
 
 Change the sendfrom info in lines 54 and 55 in the bulkmail.php file.
 
-To send email to the voters, change line 53 to TRUE.
+To send email to the voters, change line 53 to TRUE in the bulkmail.php file.
